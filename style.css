@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #2F2E41; /* Cor de fundo do corpo da página */
+  min-height: 100vh; /* Garante que o corpo da página ocupe pelo menos a altura da viewport */
+}
+
+.page {
+  width: 1280px; /* Largura da área principal da página */
+  margin: 0 auto 0; /* Margens automáticas para centralizar o conteúdo horizontalmente */
+  padding-top: 71px; /* Espaçamento superior da página */
+}
+
+nav {
+  display: flex; /* Cria um container flexível para os elementos dentro da navegação */
+  justify-content: space-between; /* Espaço uniformemente entre os elementos */
+  align-items: center; /* Centraliza os elementos verticalmente */
+  margin-bottom: 101px; /* Espaçamento inferior da navegação */
+}
+
+ul {
+  display: flex; /* Cria uma lista horizontal */
+  list-style: none; /* Remove os marcadores de lista */
+  gap: 64px; /* Espaço entre os elementos da lista */
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace; /* Define a fonte para a lista */
+}
+
+a {
+  text-decoration: none; /* Remove a decoração de texto de links (sublinhado) */
+  color: #FFFFFF; /* Cor do texto dos links */
+}
+
+main {
+  display: flex; /* Cria um container flexível para o conteúdo principal */
+  flex-direction: row-reverse; /* Inverte a direção dos elementos filho na linha */
+  justify-content: space-between; /* Espaço uniformemente entre os elementos */
+  align-items: center; /* Centraliza os elementos verticalmente */
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace; /* Define a fonte para o título */
+  font-size: 36px; /* Tamanho da fonte do título */
+  line-height: 40px; /* Altura da linha do título */
+  margin-top: 107px; /* Espaçamento superior do título */
+  color: #FFFFFF; /* Cor do título */
+}
+
+h1 span {
+  color: #00BFA6; /* Cor da parte destacada no título */
+  font-weight: 700; /* Peso da fonte (negrito) */
+}
+
+p {
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+  line-height: 28px; /* Altura da linha do parágrafo */
+  width: 604px; /* Largura do parágrafo */
+  margin-top: 59px; /* Espaçamento superior do parágrafo */
+  font-family: 'Open Sans', sans-serif; /* Define a fonte para o parágrafo */
+  text-align: center; /* Centraliza o texto no parágrafo */
+  color: #C2C2C2; /* Cor do texto do parágrafo */
+}
+
+span {
+  color: #00BFA6; /* Cor do texto destacado */
+  font-weight: bold; /* Peso da fonte (negrito) */
+}
+
+main img {
+  margin-top: 101px; /* Espaçamento superior da imagem no conteúdo principal */
+}
+
+footer {
+  font-size: 14px; /* Tamanho da fonte do rodapé */
+  line-height: 28px; /* Altura da linha do rodapé */
+  margin-top: 157px; /* Espaçamento superior do rodapé */
+  margin-bottom: 23px; /* Espaçamento inferior do rodapé */
+  text-align: center; /* Centraliza o texto no rodapé */
+  color: #FFFFFF; /* Cor do texto do rodapé */
+  font-family: 'JetBrains Mono', monospace; /* Define a fonte para o rodapé */
+}
+
+.line {
+  border: 1px solid #00BFA6; /* Cria uma linha decorativa no rodapé */
+  width: 568px; /* Largura da linha */
+  margin: 157px auto 27px; /* Posicionamento da linha no rodapé */
+}
+
+footer a {
+  font-weight: 500; /* Define o peso da fonte para os links no rodapé */
+}
+
+#padlock {
+  position: fixed ; /* Define a posição fixa para a imagem */
+  left: 20px; /* Posição à esquerda em relação à janela de visualização */
+  bottom: 22px; /* Posição na parte inferior em relação à janela de visualização */
+}
